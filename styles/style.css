@@ -141,3 +141,67 @@ nav ul li{
   margin-top: 0;
 }
 
+
+
+/* feedback section style */
+.feedback-section-title{
+  font-size: 42px;
+  font-weight: bold;
+  color: #252432;
+  text-align: center;
+}
+
+.feedback{
+  background-color: rgba(242, 237, 237, .6);
+  padding: 18px;
+  border-radius: 14px;
+}
+
+.feedback-title{
+  font-size: 29px;
+  color: rgba(30, 30, 30, 1);
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+.feedback-description{
+  font-size: 16px;
+  color: rgba(30, 30, 30, 1);
+  margin-bottom: 25px;
+  margin-top: 5px;
+}
+
+
+.feedbacks{
+  display: flex;
+  gap: 16px;
+}
+
+
+.reviewer{
+  display: flex;
+  gap: 5px;
+}
+
+
+.reviewer-name{
+  font-size: 20px;
+  color: rgba(179, 179, 179, 1);
+}
+
+.review-date{
+  font-size: 14px;
+  font-weight: bold;
+  color: rgba(179, 179, 179, 1);
+}
+
+.feedback-section .reviewer img{
+  border-radius: 50%;
+}
+
+.feedback-section .reviewer h4, h5{
+  margin: 0;
+  padding: 0;
+}
+
+
