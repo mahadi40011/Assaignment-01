@@ -51,7 +51,7 @@ nav ul li{
  /* banner style  */
 .banner{
   text-align: center;
-  margin: 120px 240px 100px;
+  margin: 100px 240px 100px;
  }
 
  .banner-title{
@@ -62,3 +62,38 @@ nav ul li{
 
 
 
+/* main part style  */
+ main section{
+  max-width: 1000px;
+  margin: 100px auto;
+
+ }
+
+ /* action-section style  */
+ .action-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ }
+
+
+ .action-column{
+  width: 50%;
+ }
+
+
+ .action-column-title{
+  font-size: 40px;
+  font-weight: bold;
+  color: #252432;
+ }
+
+ .action-column-description{
+  font-size: 24px;
+  font-weight: 400;
+  color: #252432;
+ }
+
+ .action-section img{
+  border-radius: 45px;
+ }
