@@ -21,6 +21,8 @@
   border-radius: 5px;
   font-size: 16px;
   font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
 
 
@@ -335,4 +337,22 @@ footer nav ul li a{
   color: rgba(137, 135, 161, 1);
   text-align: center;
 }
+
+/* hover style  */
+footer nav ul li a:hover{
+  color: blue;
+  text-decoration: underline;
+}
+
+header nav ul li a button:hover{
+  color:chartreuse;
+  text-decoration: underline;
+}
+
+.btn-primary:hover{
+  box-shadow: 0 0 10px black;
+  transform: scale(1.2);
+  color: chartreuse;
+}
+
 
